@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC9A83F3243B137B00D3F089 /* WXDemoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9A83F2243B137B00D3F089 /* WXDemoObject.m */; };
 		CCCDF8FE1C91BAFE000206A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDF8FD1C91BAFE000206A8 /* main.m */; };
 		CCCDF9011C91BAFE000206A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDF9001C91BAFE000206A8 /* AppDelegate.m */; };
 		CCCDF9041C91BAFE000206A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDF9031C91BAFE000206A8 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC9A83F1243B137B00D3F089 /* WXDemoObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXDemoObject.h; sourceTree = "<group>"; };
+		CC9A83F2243B137B00D3F089 /* WXDemoObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXDemoObject.m; sourceTree = "<group>"; };
 		CCCDF8F91C91BAFD000206A8 /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCDF8FD1C91BAFE000206A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCCDF8FF1C91BAFE000206A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC9A83F0243B133B00D3F089 /* WXDemoClass */ = {
+			isa = PBXGroup;
+			children = (
+				CC9A83F1243B137B00D3F089 /* WXDemoObject.h */,
+				CC9A83F2243B137B00D3F089 /* WXDemoObject.m */,
+			);
+			path = WXDemoClass;
+			sourceTree = "<group>";
+		};
 		CCCDF8F01C91BAFD000206A8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		CCCDF8FB1C91BAFE000206A8 /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CC9A83F0243B133B00D3F089 /* WXDemoClass */,
 				CCCDF8FF1C91BAFE000206A8 /* AppDelegate.h */,
 				CCCDF9001C91BAFE000206A8 /* AppDelegate.m */,
 				CCCDF9021C91BAFE000206A8 /* ViewController.h */,
@@ -226,6 +239,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -273,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9A83F3243B137B00D3F089 /* WXDemoObject.m in Sources */,
 				CCCDF9041C91BAFE000206A8 /* ViewController.m in Sources */,
 				CCCDF9011C91BAFE000206A8 /* AppDelegate.m in Sources */,
 				CCCDF8FE1C91BAFE000206A8 /* main.m in Sources */,
@@ -501,6 +516,7 @@
 				CCCDF9281C91BAFE000206A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCCDF9291C91BAFE000206A8 /* Build configuration list for PBXNativeTarget "TestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +525,7 @@
 				CCCDF92B1C91BAFE000206A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCCDF92C1C91BAFE000206A8 /* Build configuration list for PBXNativeTarget "TestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +534,7 @@
 				CCCDF92E1C91BAFE000206A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
